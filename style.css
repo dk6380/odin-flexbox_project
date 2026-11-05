@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic,900,900italic,300italic,300,100italic,100);
+
 * {
   font-family: Roboto;
   outline: 1px solid red;
@@ -14,4 +16,25 @@ body {
 
 #header nav {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 150px;
+}
+
+#header img {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f9faf8;
+}
+
+#header nav div a {
+  color: darkgray;
+  font-size: 16px;
+  padding: 24px 40px;
+  text-decoration: none;
+}
+
+#header nav div a:hover {
+  background-color: darkgray;
+  color: #1f2937;
 }
